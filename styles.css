@@ -106,12 +106,18 @@
     align-items: center;
     height: 500px;
     width: 300px;
-    background-color: #101010;
+    background-color: white;
     position: relative;
     flex-flow: column wrap;
     text-align: center;
     margin: 20px auto;
     border-radius: 15px;
+    box-shadow: 0 0 15px 0px #fff; /* outer white glow */
+}
+
+.card_container:hover {
+    height: 508px;
+    width: 308px;
 }
 
 .card {
