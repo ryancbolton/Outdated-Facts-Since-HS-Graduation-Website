@@ -112,7 +112,8 @@
     text-align: center;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 0 15px 0px #fff; /* outer white glow */
+    box-shadow: 0 0 10px 0px #fff; /* outer white glow */
+    transition: 200ms;
 }
 
 .card_container:hover {
