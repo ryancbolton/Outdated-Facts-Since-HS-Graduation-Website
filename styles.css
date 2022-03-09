@@ -147,3 +147,32 @@
 .card p {
     font-size: 20px;
 }
+
+.circle {
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 350px;
+    background: #ccffff;
+    border: 0.05em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.3em 0.3em 0 0 rgba(15, 28, 63, 0.125);
+    height: 20em;
+    width: 20em;
+    opacity: 0.9;
+}
+
+.triangle {
+    position: absolute;
+    z-index: -1;
+    top: 300px;
+    left: 800px;
+    /* border: 0.05em solid #0F1C3F; */
+    border-style: solid;
+    border-width: 0 200px 300px 200px;
+    border-color: transparent transparent #ccffff transparent;
+    /* box-shadow: 0.3em 0.3em 0 0 rgba(15, 28, 63, 0.125); */
+    height: 0;
+    width: 0;
+    opacity: 0.9;
+}
