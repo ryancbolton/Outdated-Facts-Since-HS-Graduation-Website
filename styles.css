@@ -102,18 +102,21 @@
 /*************************** main.html ********************************/
 .card_container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 500px;
     width: 300px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
+    padding-top: 20px;
     flex-flow: column wrap;
     text-align: center;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 0 10px 0px #fff; /* outer white glow */
-    transition: 200ms;
+    border: 1px solid rgba(255,255,255,0.2);  /* adds slight card inner border to mimick glass */
+    box-shadow: 0 0 1px 0px #fff; /* outer white glow */
+    transition: 200ms;  /* adds transition for size change of card on hover */
+    backdrop-filter: blur(2px);  /* creates blur effect behind card */
 }
 
 .card_container:hover {
@@ -125,9 +128,10 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    height: 85%;
+    height: 25%;
     width: 85%;
     background-color: white;
+    opacity: 0.6;
     position: relative;
     flex-flow: column wrap;
     text-align: center;
